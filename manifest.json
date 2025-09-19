@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Archive.is Saver",
+  "version": "1.0",
+  "description": "Save the current page to archive.is",
+  "permissions": ["tabs", "scripting"],
+  "action": {
+    "default_title": "Archive this page"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}
